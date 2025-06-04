@@ -1,98 +1,80 @@
-# Zokou-2.0 🚀
+<p align="center">
+  <img src="https://raw.githubusercontent.com/djalega8000/Zokou-MD/refs/heads/main/Ephoto360.com_164cb282992914.jpg" alt="Zokou Banner" width="600">
+  <h1 align="center">Zokou-MD 3.0</h1>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Multi_Devices-100%25-success?style=flat&logo=whatsapp" alt="Multi-devices">
+    <img src="https://img.shields.io/badge/Version-3.0-blue?style=flat&logo=github" alt="Version">
+    <img src="https://img.shields.io/badge/Licence-MIT-green?style=flat&logo=opensourceinitiative" alt="Licence">
+  </p>
+</p>
 
-Zokou is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether it’s managing files, interacting with stickers, or facilitating group management, Zokou is here to assist you!
+<div align="center">
+  
+✨ **A WhatsApp bot** combining power and entertainment  
+🔥 **Modular** • 🌍 **Active community**
 
-## Key Features ✨
+</div>
 
-- **File Download:** Zokou can download audio and video files from links you send, making it easy to share them with your contacts. 🎶📹
+---
 
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou. 😄✨
+## 🌟 Why Choose Zokou-MD?
 
-- **Group Management:** Zokou offers group management features like adding or removing members, configuring rules, and other settings. 👥📋
+| Feature | Description |
+|---------|-------------|
+| 🎛️ **Multi-device** | Use the same bot on several devices simultaneously |
+| ⚡ **Performance** | Optimized response time thanks to a lightweight architecture |
+| 🧩 **Modular** | Enable/disable modules as needed |
+---
 
-- **Text to Image:** The best logos have been selected for your convenience. 🖼️🎨
+## 🚀 Quick Deployment
 
-## Fun Features 🎉
+### Option 1: Cloud Hosting
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/luffy8979/Zokou-MD-english)
 
-- **Jokes and Riddles:** Zokou comes with a collection of jokes and riddles to add fun to your conversations. 😂🤔
+### Option 2: Download for Deployment Panels
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/luffy8979/Zokou-MD-english/archive/refs/heads/main.zip)
 
-- **Inspiring Quotes:** Receive inspiring quotes daily to motivate you. 💪🌟
-
-## How to Get Zokou 🛠️
-
-1. Click on **[Fork](https://github.com/luffy8979/Zokou-MD-english/fork)** to copy the repo to your GitHub account. Don’t forget to add a star 🌟 to encourage the developers.
-
-2. Obtain a bot session: 
-
-- [Session-1](https://zkscan.onrender.com)  
-- [Session-2](https://zokouscan-din3.onrender.com)
-
-3. Deploy Zokou
-- **Heroku Deployment:**
-1. If you don’t have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
-2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/luffy8979/Zokou-MD-english) to deploy the bot on **Heroku**.
-
-- **Koyeb Deployment:**
-1. If you don’t have a **Koyeb** account, click [**here**](https://app.koyeb.com/auth/signup) to create one.
-2. Click the button below to deploy:
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=zokouve&type=docker&image=docker.io%2Fluffy077%2Fzokouve%3Alatest&env%5BPREFIX%5D=.&env%5BAUTO_READ_STATUS%5D=yes&env%5BAUTO_DOWNLOAD_STATUS%5D=yes&env%5BPM_PERMIT%5D=no&env%5BBOT_NAME%5D=Zokou-MD&env%5BBOT_MENU_LINKS%5D=https%3A%2F%2Fi.pinimg.com%2F736x%2F0a%2F70%2F6f%2F0a706f90d6a1fb39919aedfbb7fdd8d3.jpg&env%5BPUBLIC_MODE%5D=yes&env%5BDATABASE_URL%5D=create+on+koyeb&env%5BOWNER_NAME%5D=Djalega%2B%2B&env%5BNUMERO_OWNER%5D=22891733300&env%5BWARN_COUNT%5D=3&env%5BSTARTING_BOT_MESSAGE%5D=yes&env%5BPRESENCE%5D=1&env%5BPM_CHATBOT%5D=no&env%5BSESSION_ID%5D=put+your+session&env%5BANTI_VIEW_ONCE%5D=yes&ports=8000%3Bhttp%3B%2F)
-
-- **Render Deployment:**
-1. If you don’t have a **Render** account, click [**here**](https://dashboard.render.com) to create one.
-2. Create a new web service.  
-3. Choose **Public Git Repository**.  
-4. In the field, enter `https://gitlab.com/bankai421341/zabimaru.git`.
-5. Click **Connect**.  
-6. Select the **Free Plan** if you don’t want to pay.
-7. In the **Environment Variable** section, click **Add from .env** and copy the content below:
-
-```env
-PREFIX=.
-AUTO_READ_STATUS=yes
-AUTO_DOWNLOAD_STATUS=yes
-PM_PERMIT=no
-BOT_NAME=Zokou-MD
-BOT_MENU_LINKS=LUFFY
-PUBLIC_MODE=yes
-HEROKU=no
-OWNER_NAME=Djalega++
-NUMERO_OWNER=22891733300
-WARN_COUNT=3
-STARTING_BOT_MESSAGE=yes
-PRESENCE=1
-PM_CHATBOT=no
-SESSION_ID=zokk
-ANTI_VIEW_ONCE="yes
-ANTI_COMMAND_SPAM=yes
-ANTI_DELETE_MESSAGE=yes
-AUTO_REACT_MESSAGE=no
+### Minimum Configuration
+```bash
+git clone https://github.com/luffy8979/Zokou-MD-english
+cd Zokou-MD-French
+npm install
+npm start
 ```
 
-8. Click **Add env** to save, then edit as needed. Don’t forget to enter your session ID.
-9. Click **Deploy Service** and enjoy!
+## 🧰 Essentials
 
-    
-- **Github Deployement**
+### 🔑 Quick Access
+| Service | Link | Status |
+|---------|------|--------|
+| **Session Scan** | [zkscan.onrender.com](https://zkscan.onrender.com) | ![Online](https://img.shields.io/badge/Status-Online-green) |
+| **Session Scan 2** | [zokouscan-din3.onrender.com](https://zkscan.onrender.com) | ![Online](https://img.shields.io/badge/Status-Online-green) |
+| **Backup Server** | [zokou-web.onrender.com](https://zokou-web.onrender.com/) | ![Online](https://img.shields.io/badge/Status-Online-green) |
 
-Sorry Removed , Suggest you to deploy on panel instead
+### ⚙️ Minimal Configuration
+```env
+# .env file
+SESSION_ID="your_session_here"    # Required
+PREFIX="!"                        # Command character
+OWNER_NUMBER="22891733300"        # Your WhatsApp number
+```
 
-## Contributions 🤝
+## 💜 Acknowledgements
 
-Contributions to Zokou are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request. 🙌
+### 🏆 Key Contributors
+| Member | Contribution | Link |
+|--------|--------------|------|
+| **Fatao** | GPT/DALL-E Commands • APK Modules | [GitHub](https://github.com/fatao) |
+| **CrazyPrince** | Hosting a session service | [Website](#) |
 
-Special thanks to:
 
-- **Fatao**, who added commands (Fancy, GPT, Dall-e, APK)  
-- **CrazyPrice**, who hosted a second website for the session_id  
+### 🌟 Special Thanks
+- **The Zokou community** for testing and feedback  
+- **Contributors** on GitHub ([See all](https://github.com/luffy8979/Zokou-MD-english/graphs/contributors))  
+- **Beta Testers** for their patience with unstable versions 😅
 
-## License 📜
 
-The WhatsApp Bot Zokou is released under the [MIT License](https://opensource.org/licenses/MIT).
-
-Enjoy the diverse features of Zokou to enhance your WhatsApp experience! 💬🎉
-
-## Developers:
-
-- [**Djalega++**](https://github.com/djalega8000/Zokou-MD/)
-- [**᚛M๏𝓷keℽ D Lบffy᚜**](https://github.com/Faouz995)
+### 📚 Libraries Used
+```bash
+@WhiskeySocket/baileys
+```

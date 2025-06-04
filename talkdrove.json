@@ -9,87 +9,90 @@
     "owner-verification": "charpesstearviky@gmail.com",
     "env": {
         "PREFIX": {
-            "description": "choose your bot prefix",
+            "description": "choose your prefix",
             "value": "#",
             "required": true
         },
         "AUTO_READ_STATUS": {
-            "description": "Your contact status will be read automatically (type yes to activate or no to deactivate; don't write in capital letters)",
+            "description": "the bot will automatically read all statuses (yes to enable, no to disable)",
             "value": "yes",
             "required": false
         },
         "AUTO_DOWNLOAD_STATUS": {
-            "description": "Your contact status will be downloaded automatically and sent to you (type yes to activate or no to deactivate; don't write in capital letters)",
+            "description": "the bot will automatically download all statuses (yes to enable, no to disable)",
             "value": "yes",
-            "required": false
-        },
-        "PM_PERMIT": {
-            "description": "Other users can't use your bot in private messages (type yes to activate or no to deactivate; don't write in capital letters)",
-            "value": "no",
             "required": false
         },
         "BOT_NAME": {
-            "description": "put a name for your bot",
+            "description": "A name for your bot",
             "value": "Zokou-MD",
             "required": false
         },
-        "BOT_MENU_LINKS": {
-            "description": "add one or many links for your bot menu; e.g., url1,url2,url3..... || Or a theme name",
-            "value": "LUFFY",
+        "MENU_THEME": {
+            "description": "Add one or more image or video links for your bot; example: link1,link2,link3......\n Or put the name of a THEME among the available themes",
+            "value": "ELIE",
             "required": false
         },
-        "PUBLIC_MODE": {
-            "description": "type yes to put your bot in public mode or no to put it in private mode",
+        "PM_PERMIT": {
+            "description": "Commands will not work in private for other users (yes to enable, no to disable)",
+            "value": "no",
+            "required": false
+        },
+        "MODE_PUBLIC": {
+            "description": "yes for public mode or no for private mode (in this case, only you will use the bot)",
             "value": "yes",
             "required": false
         },
+        "HEROKU_API_KEY": {
+            "description": "insert your heroku account apikey",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "insert the name you entered (APP NAME) at the very beginning of the page",
+            "required": false
+        },
+        "PRESENCE": {
+            "description": "mark your presence: 1 to show you are online even if you are not. 2 to show you are typing a message. 3 to show you are recording an audio. Or leave the field empty to show your real status.",
+            "value": "1",
+            "required": false
+        },
         "SESSION_ID": {
-            "description": "put your session ID, the code you receive after scanning the QR code",
+            "description": "please enter your session id",
             "value": "",
             "required": true
         },
         "OWNER_NAME": {
-            "description": "Your Name",
+            "description": "Your name",
             "required": false,
             "value": "Djalega++"
         },
-        "NUMERO_OWNER": {
-            "description": "Your number, don't put '+' and include your area code (example for Togo '228')",
+        "OWNER_NUMBER": {
+            "description": "Your phone number; it must be in the format ID+number",
             "required": false,
             "value": "22891733300"
         },
         "WARN_COUNT": {
-            "description": "this is the limit of warnings for warning commands",
+            "description": "this is the warning limit count",
             "required": false,
             "value": "3"
         },
         "STARTING_BOT_MESSAGE": {
-            "description": "if you don't want a starting-bot-message put no, otherwise put yes",
+            "description": "Put yes if you want to receive the bot's starting message in private or no if you don't want it",
             "required": true,
             "value": "yes"
         },
-        "PRESENCE": {
-            "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-            "value": "",
-            "required": false
-        },
         "PM_CHATBOT": {
-            "description": "Put yes if you want the bot to automatically respond to messages in private",
-            "required": false,
-            "value": "no"
-        },
-        "ANTI_VIEW_ONCE": {
-            "description": "Put yes if you want to receive all view once content in private messages",
+            "description": "Put yes if you want the bot to automatically reply to private messages",
             "required": false,
             "value": "no"
         },
         "ANTI_COMMAND_SPAM": {
-            "description": "activate a cooldown of 10 seconds for every user after a command to avoid spamming unless owner and mods",
+            "description": "Add a one-minute cooldown after each command for other users (to enable, choose *yes*)",
             "required": false,
             "value": "no"
         },
         "ANTI_DELETE_MESSAGE": {
-            "description": "Put yes if you want messages deleted by other users to be sent to you in private messages",
+            "description": "Put yes if you want messages deleted by other users to be sent to you in private",
             "required": false,
             "value": "no"
         },
@@ -97,6 +100,21 @@
             "description": "Put yes if you want messages to be automatically reacted to",
             "required": false,
             "value": "no"
+        },
+        "AUTO_REACT_STATUS": {
+            "description": "Enable automatic reactions to statuses (yes/no)",
+            "required": false,
+            "value": "no"
+        },
+        "TIME_ZONE": {
+            "description": "Bot time zone",
+            "required": false,
+            "value": "Africa/Sao_Tome"
+        },
+        "SERVER": {
+            "description": "Server name",
+            "required": false,
+            "value": "HEROKU"
         }
     }
 }
