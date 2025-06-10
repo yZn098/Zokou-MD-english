@@ -24,20 +24,24 @@
 | 🎛️ **Multi-device** | Use the same bot on several devices simultaneously |
 | ⚡ **Performance** | Optimized response time thanks to a lightweight architecture |
 | 🧩 **Modular** | Enable/disable modules as needed |
+
 ---
 
 ## 🚀 Quick Deployment
 
 ### Option 1: Cloud Hosting
+
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/luffy8979/Zokou-MD-english)
 
 ### Option 2: Download for Deployment Panels
+
 [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=for-the-badge&logo=github)](https://github.com/luffy8979/Zokou-MD-english/archive/refs/heads/main.zip)
 
 ### Minimum Configuration
+
 ```bash
 git clone https://github.com/luffy8979/Zokou-MD-english
-cd Zokou-MD-French
+cd Zokou-MD-english
 npm install
 npm start
 ```
@@ -45,13 +49,15 @@ npm start
 ## 🧰 Essentials
 
 ### 🔑 Quick Access
+
 | Service | Link | Status |
 |---------|------|--------|
-| **Session 1** | [zokouscan-din3.onrender.com/](https://zokouscan-din3.onrender.com/) | ![Online](https://img.shields.io/badge/Status-Online-green) |
-| **Session 2** | [zokou-scan..onrender.com](https://zokou-scan.onrender.com/) | ![Online](https://img.shields.io/badge/Status-Online-green) |
+| **Session Scan** | [https://zokou-scan.onrender.com](https://zokou-scan.onrender.com) | ![Online](https://img.shields.io/badge/Status-Online-green) |
+| **Session Scan 2** | [zokouscan-din3.onrender.com](https://zokouscan-din3.onrender.com) | ![Online](https://img.shields.io/badge/Status-Online-green) |
 | **Backup Server** | [zokou-web.onrender.com](https://zokou-web.onrender.com/) | ![Online](https://img.shields.io/badge/Status-Online-green) |
 
 ### ⚙️ Minimal Configuration
+
 ```env
 # .env file
 SESSION_ID="your_session_here"    # Required
@@ -62,19 +68,20 @@ OWNER_NUMBER="22891733300"        # Your WhatsApp number
 ## 💜 Acknowledgements
 
 ### 🏆 Key Contributors
+
 | Member | Contribution | Link |
 |--------|--------------|------|
 | **Fatao** | GPT/DALL-E Commands • APK Modules | [GitHub](https://github.com/fatao) |
-| **CrazyPrince** | Hosting a session service | [Website](#) |
-
+| **CrazyPrince** | Hosting a session service | site mort |
 
 ### 🌟 Special Thanks
+
 - **The Zokou community** for testing and feedback  
 - **Contributors** on GitHub ([See all](https://github.com/luffy8979/Zokou-MD-english/graphs/contributors))  
 - **Beta Testers** for their patience with unstable versions 😅
 
-
 ### 📚 Libraries Used
+
 ```bash
 @WhiskeySocket/baileys
 ```

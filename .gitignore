@@ -16,3 +16,4 @@ store.db-journal
 temp
 index.old.js
 .dockerignore
+jsconfig.json

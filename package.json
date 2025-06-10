@@ -1,6 +1,6 @@
 {
   "name": "zokou-md",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Best WhatsApp Bot",
   "main": "index.js",
   "type": "commonjs",
