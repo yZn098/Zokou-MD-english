@@ -1,6 +1,6 @@
 {
   "name": "zokou-md",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Best WhatsApp Bot",
   "main": "index.js",
   "type": "commonjs",
@@ -59,6 +59,7 @@
     "pm2": "^5.4.3",
     "prompt-sync": "^4.2.0",
     "sharp": "^0.32.2",
+    "simple-git": "^3.28.0",
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "wa-sticker-formatter": "^4.4.4",

@@ -115,6 +115,11 @@
             "description": "Server name",
             "required": false,
             "value": "HEROKU"
+        },
+        "STICKER_PACKNAME": {
+            "description": "Sticker pack name",
+            "required": false,
+            "value": "made with ❤; Zokou-MD"
         }
     }
 }
