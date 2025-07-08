@@ -1,6 +1,6 @@
 {
   "name": "zokou-md",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Best WhatsApp Bot",
   "main": "index.js",
   "type": "commonjs",
@@ -25,7 +25,7 @@
     "@faouzkk/tiktok-dl": "^1.0.1",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys#92b4c68de0d1e640108d7d840e080c069e975bf6",
+    "@whiskeysockets/baileys": "npm:@faouzkk/baileys@3.0.0",
     "@xaviabot/fb-downloader": "^1.0.14",
     "aptoide_scrapper_fixed": "^1.0.2",
     "axios": "^1.7.9",
